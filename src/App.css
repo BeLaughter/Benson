@@ -120,11 +120,6 @@ a {
   color: #1e1e1e;
 }
 
-.light-theme .b2top {
-  background-color: #1e1e1e;
-  color: #f3f0ee;
-}
-
 .light-theme .glow-btn {
   background: linear-gradient(90deg, #f3f0ee, #ccc);
   color: #1e1e1e;

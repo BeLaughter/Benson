@@ -48,7 +48,7 @@ function App() {
     <div className={isDark ? "dark-theme" : "light-theme"}>
       <div className="b2top">
         <a href="#totop" onClick={scrollToTop}>
-          <FaArrowUp className="text-dark" />
+          <FaArrowUp className={isDark ? "text-dark" : "text-light"} />
         </a>
       </div>
 
