@@ -171,7 +171,7 @@ a {
 /* Light theme overrides */
 .light-theme .about-img {
   background-color: #f3f3f3;
-  box-shadow: 0 0 5px #ccc, 0 0 10px #aaa;
+  box-shadow: 0 0 5px #888787, 0 0 10px #858383;
 }
 
 .light-theme .iconsz {
