@@ -137,9 +137,11 @@ a {
 /* navbar */
 /* Light theme overrides for navbar */
 .light-theme .navbar {
-  background-color: #f3f0ee !important;
+  background-color: transparent !important;
   color: #1e1e1e !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
+
 .light-theme .navbar-toggler-icon {
   background-color: #333; /* Dark color for visibility on light background */
 }
