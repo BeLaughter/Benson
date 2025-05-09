@@ -23,30 +23,30 @@ function Footer() {
           <ul>
             <li>
               <FaLocationDot className="iconsz" />
-              121, Apebi street, Ijebu-ode, Ogun State
+              6b, Adebisi Alabi street, Alakuko, Lagos state.
             </li>
             <li>
               <IoCall className="iconsz" />
-              +2348130936554
+              +2348069374133
             </li>
             <li>
               <IoIosMail className="iconsz" />
-              Roserlaw@gmail.com
+              Laughteriremide@gmail.com
             </li>
             <li>
               {" "}
               <div className="mid-foot">
                 <a href="#" target="blank">
-                  <FaInstagram className="icons" />
+                  <FaFacebook className="iconsz" />
+                </a>
+                <a href="http://Instagram.com/that.laughter" target="blank">
+                  <FaInstagram className="iconsz" />
+                </a>
+                <a href="https://wa.link/yxwwka" target="blank">
+                  <FaWhatsapp className="iconsz" />
                 </a>
                 <a href="#" target="blank">
-                  <FaWhatsapp className="icons" />
-                </a>
-                <a href="#" target="blank">
-                  <FaLinkedin className="icons" />
-                </a>
-                <a href="#" target="blank">
-                  <FaFacebookSquare className="icons" />
+                  <FaLinkedin className="iconsz" />
                 </a>
               </div>
             </li>
@@ -76,8 +76,8 @@ function Footer() {
       </div>
       <hr></hr>
       <div className="flex-container6">
-        <p>121, Apebi St. Ijebu-ode,Ogun State</p>
-        <p>© ROSERLAW 2025. All Rights Reserved. Design by BlackFire</p>
+        <p>6b, Adebisi Alabi street, Alakuko Lagos state.</p>
+        <p>©BENSON 2025. All Rights Reserved. Design by BlackFire_CODEX</p>
       </div>
     </div>
   );
