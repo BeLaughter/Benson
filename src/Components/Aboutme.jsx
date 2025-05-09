@@ -2,6 +2,7 @@ import React from "react";
 import "./Aboutme.css";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import mypic2 from "../assets/mypic2.png";
 const Aboutme = () => {
   return (
     <div className="pad">
@@ -11,7 +12,9 @@ const Aboutme = () => {
       </p>
       <div className="flex-container mt-5">
         <div className="flex-a">
-          <div className="about-img"></div>
+          <div className="about-img">
+            <img src={mypic2} alt="Image 3" className="img"></img>
+          </div>
           <div className="about-icon">
             <a href="http://Instagram.com/that.laughter" target="blank">
               <FaInstagram className="iconsz" />
@@ -40,7 +43,7 @@ const Aboutme = () => {
             technology to solve real-world problems and delivering cutting-edge
             web and Web3 solutions for modern businesses.
           </h6>
-          <p className="mt-4">My Journey</p>
+          <h5 className="mt-4">My Journey</h5>
           <div className="flex">
             <div>
               <span className="circle">2022</span>

@@ -1,7 +1,7 @@
-import { FaPhone } from "react-icons/fa";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaGithub, FaLocationDot } from "react-icons/fa6";
+import { IoCall } from "react-icons/io5";
 import "./Contactme.css";
 function Contactme() {
   return (
@@ -28,7 +28,7 @@ function Contactme() {
               </p>
             </li>
             <li className="flex">
-              <FaPhone className="iconsz me-4" />
+              <IoCall className="iconsz me-4" />
               <p className="grey">
                 Hotline<br></br>
                 08069374133, 08053100515
