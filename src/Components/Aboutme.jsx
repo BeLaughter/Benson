@@ -26,16 +26,16 @@ const Aboutme = () => {
         </div>
         <div className="flex-b">
           <h6>Hi, I am Benson Iremide</h6>
-          <h6 className="skill-name">
+          <h6 className="grey">
             Innovative web designer and developer specializing in responsive,
             user-centric web applications.
           </h6>
-          <h6 className="skill-name">
+          <h6 className="grey">
             I hold a Bachelor's degree in Geology from Olabisi Onabanjo
             University, with a Responsive Web Design certifcation from Freecode
             camp, Frontend and Backend Certification from Boldlink Solutions.
           </h6>
-          <h6 className="skill-name">
+          <h6 className="grey">
             I'm passionate about creating impactful projects by leveraging
             technology to solve real-world problems and delivering cutting-edge
             web and Web3 solutions for modern businesses.
@@ -47,7 +47,7 @@ const Aboutme = () => {
             </div>
             <div>
               <h5>Got Started with Web Design & Development</h5>
-              <h7 className="skill-name">
+              <h7 className="grey">
                 Began my journey into tech by learning web design principles and
                 building static websites using HTML, CSS, and JavaScript.
               </h7>
@@ -57,9 +57,9 @@ const Aboutme = () => {
           <div className="flex">
             <div>
               <h5>Specialized in React & Modern Frontend Tools</h5>
-              <h7 className="skill-name">
-                Mastered React.js, Tailwind CSS, and Next.js. Built responsive
-                web apps with dynamic interfaces and clean UI/UX.
+              <h7 className="grey">
+                Mastered React.js, Bootstrap. Built responsive web apps with
+                dynamic interfaces and clean UI/UX.
               </h7>
             </div>
             <div>
@@ -73,7 +73,7 @@ const Aboutme = () => {
             </div>
             <div>
               <h5>Full Stack Skills & Exploring Web3</h5>
-              <h7 className="skill-name">
+              <h7 className="grey">
                 Expanded into backend development with Node.js and Express.
               </h7>
             </div>
@@ -82,7 +82,7 @@ const Aboutme = () => {
           <div className="flex">
             <div>
               <h5>Freelancing</h5>
-              <h7 className="skill-name">
+              <h7 className="grey">
                 Started offering services in Web Design, Web Development,
                 helping businesses launch modern digital products.
               </h7>

@@ -204,6 +204,10 @@ a {
   color: #333;
 }
 
+.light-theme .grey {
+  color: #646363;
+}
+
 .light-theme .progress-bar {
   background-color: #eee;
 }

@@ -44,7 +44,9 @@
   font-weight: bold;
   color: #555;
 }
-
+.grey {
+  color: #555;
+}
 .progress-bar {
   height: 14px;
   border-radius: 7px;

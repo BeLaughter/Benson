@@ -8,9 +8,9 @@ const Intro = () => {
       <h1>BUILDING THE FUTURE OF THE WEB</h1>
       <p className="para">
         I create cutting-edge digital experiences using modern frontend
-        technologies and blockchain innovation.
+        technologies.
       </p>
-      <div className="flex-contain mb">
+      <div className="flex-contain mb mt-5">
         <a href="#project" className="glow-btn">
           View my work <FaArrowRight className="bk-icon" />
         </a>
