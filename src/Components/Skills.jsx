@@ -3,11 +3,11 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="pad">
-      <p>
+      <p className="para">
         What I Do <br></br>
         <span className="title">My Skills </span>
       </p>
-      <div className="skills-box">
+      <div className="skills-box mt-5">
         <h2>Web2 Skills</h2>
 
         <div className="skill">

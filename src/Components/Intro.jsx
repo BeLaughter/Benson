@@ -4,13 +4,13 @@ import { FaArrowDown, FaArrowRight } from "react-icons/fa6";
 const Intro = () => {
   return (
     <div className="pad">
-      <p>WEB DEVELOPER</p>
+      <p className="para">WEB DEVELOPER</p>
       <h1>BUILDING THE FUTURE OF THE WEB</h1>
-      <p>
+      <p className="para">
         I create cutting-edge digital experiences using modern frontend
         technologies and blockchain innovation.
       </p>
-      <div className="flex-contain">
+      <div className="flex-contain mb">
         <a href="#project" className="glow-btn">
           View my work <FaArrowRight className="bk-icon" />
         </a>
@@ -18,7 +18,7 @@ const Intro = () => {
           Contact me{" "}
         </a>
       </div>
-      <div className="mt-5 bounce">
+      <div className="mt-3 bounce">
         <a href="#about">
           Scroll Down <br></br> <FaArrowDown className="bk-icon" />
         </a>

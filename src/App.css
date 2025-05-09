@@ -61,7 +61,12 @@ body {
 ul li {
   list-style-type: none;
 }
-
+.topr {
+  position: fixed;
+  top: 80px;
+  right: 5px;
+  z-index: 34657565;
+}
 .b2top {
   display: none;
   position: fixed;
@@ -96,4 +101,218 @@ ul li {
 a {
   text-decoration: none;
   color: #f3f0ee;
+}
+.mb {
+  margin-bottom: 30px;
+}
+/* for light mode */
+/* Light Theme Overrides */
+.light-theme {
+  background-color: #f3f0ee;
+  color: #1e1e1e;
+}
+
+.light-theme .pad h1,
+.light-theme .title,
+.light-theme .sub-title,
+.light-theme .btn,
+.light-theme a {
+  color: #1e1e1e;
+}
+
+.light-theme .b2top {
+  background-color: #1e1e1e;
+  color: #f3f0ee;
+}
+
+.light-theme .glow-btn {
+  background: linear-gradient(90deg, #f3f0ee, #ccc);
+  color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .glow-btn:hover {
+  box-shadow: 0 0 12px #00bfff, 0 0 25px #1e90ff;
+}
+/* navbar */
+/* Light theme overrides for navbar */
+.light-theme .navbar {
+  background-color: #f3f0ee !important;
+  color: #1e1e1e !important;
+}
+.light-theme .b2top {
+  background-color: #000;
+  color: white;
+}
+.light-theme .navbar-brand {
+  color: #1e1e1e !important;
+}
+
+.light-theme .nav-link {
+  color: #1e1e1e !important;
+  border-bottom-color: #1e1e1e;
+}
+
+.light-theme .nav-link:hover,
+.light-theme .nav-link:focus {
+  border-bottom-color: #333 !important;
+}
+
+.light-theme .bk-icon {
+  color: #1e1e1e;
+}
+
+.light-theme .bg {
+  background: rgba(0, 0, 0, 0.05);
+  color: #1e1e1e !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* aboutme */
+/* Light theme overrides */
+.light-theme .about-img {
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #aaa;
+}
+
+.light-theme .iconsz {
+  background-color: #ffffff;
+  color: #1b1b1b;
+  box-shadow: 0 0 5px #00bfff, 0 0 10px #1e90ff;
+}
+
+.light-theme .iconsz:hover {
+  box-shadow: 0 0 12px #00bfff, 0 0 25px #1e90ff;
+}
+
+.light-theme .circle {
+  background-color: #f3f3f3;
+  color: #1b1b1b;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #aaa;
+}
+/* skills */
+/* Light Theme Overrides */
+.light-theme .skills-box {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #bbb;
+}
+
+.light-theme .skills-box h2 {
+  color: #333;
+}
+
+.light-theme .skill-name {
+  color: #333;
+}
+
+.light-theme .progress-bar {
+  background-color: #eee;
+}
+
+.light-theme .progress.html {
+  background: #e44d26;
+  color: white;
+}
+.light-theme .progress.css {
+  background: #2965f1;
+  color: white;
+}
+.light-theme .progress.javascript {
+  background: #f0db4f;
+  color: #000;
+}
+.light-theme .progress.react {
+  background: #61dafb;
+  color: #000;
+}
+.light-theme .progress.bootstrap {
+  background: #563d7c;
+  color: white;
+}
+
+.light-theme .skills-box li {
+  border-color: #ccc;
+}
+/* projects */
+/* Light Theme Overrides */
+.light-theme .projectcard {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #bbb;
+}
+
+.light-theme .ptext {
+  color: #1a1a1a;
+}
+
+.light-theme .bt {
+  color: #1a1a1a;
+  border-bottom-color: #0077cc;
+}
+
+.light-theme .bt:hover {
+  color: #0077cc;
+}
+
+.light-theme .boxbt {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.light-theme .mrow {
+  color: #333;
+}
+/* contact */
+/* Light Theme for Contact Section */
+.light-theme .flex-item-contact1,
+.light-theme .flex-item-contact2 {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #bbb;
+}
+.light-theme .flex-item-contact1 {
+  background-color: #f9f9f9;
+  color: #1a1a1a !important;
+  box-shadow: 0 0 5px #ccc;
+  border: 1px solid #ccc;
+}
+
+.light-theme .input,
+.light-theme .comment,
+.light-theme .input-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.light-theme .input::placeholder,
+.light-theme .comment::placeholder {
+  color: #888;
+}
+/* footer */
+/* Light Theme for Footer */
+.light-theme .footer {
+  background-color: #fffdfd;
+  color: #1a1a1a;
+}
+
+.light-theme .input-sub {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.light-theme .input-sub2 {
+  background-color: #dcdcdc;
+  color: #000;
+}
+
+.light-theme .input-sub2:hover {
+  background-color: goldenrod;
+}
+
+.light-theme .icons,
+.light-theme .iconsz {
+  color: #1a1a1a;
+}
+
+.light-theme .gallery-img {
+  border: 4px solid #1a1a1a;
 }

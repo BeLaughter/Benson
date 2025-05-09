@@ -5,11 +5,9 @@ import { FaGithub } from "react-icons/fa6";
 const Aboutme = () => {
   return (
     <div className="pad">
-      <p className="sub-title">
+      <p id="about" className="para">
         Get to know me<br></br>
-        <span id="about" className="title">
-          About me
-        </span>
+        <span className="title">About me</span>
       </p>
       <div className="flex-container mt-5">
         <div className="flex-a">
@@ -42,7 +40,7 @@ const Aboutme = () => {
             technology to solve real-world problems and delivering cutting-edge
             web and Web3 solutions for modern businesses.
           </h6>
-          <p>My Journey</p>
+          <p className="mt-4">My Journey</p>
           <div className="flex">
             <div>
               <span className="circle">2022</span>
@@ -58,10 +56,10 @@ const Aboutme = () => {
           {/*  journey */}
           <div className="flex">
             <div>
-              <h5>Got Started with Web Design & Development</h5>
+              <h5>Specialized in React & Modern Frontend Tools</h5>
               <h7 className="skill-name">
-                Began my journey into tech by learning web design principles and
-                building static websites using HTML, CSS, and JavaScript.
+                Mastered React.js, Tailwind CSS, and Next.js. Built responsive
+                web apps with dynamic interfaces and clean UI/UX.
               </h7>
             </div>
             <div>
@@ -74,20 +72,19 @@ const Aboutme = () => {
               <span className="circle">2024</span>
             </div>
             <div>
-              <h5>Got Started with Web Design & Development</h5>
+              <h5>Full Stack Skills & Exploring Web3</h5>
               <h7 className="skill-name">
-                Began my journey into tech by learning web design principles and
-                building static websites using HTML, CSS, and JavaScript.
+                Expanded into backend development with Node.js and Express.
               </h7>
             </div>
           </div>
           {/*  journey */}
           <div className="flex">
             <div>
-              <h5>Got Started with Web Design & Development</h5>
+              <h5>Freelancing</h5>
               <h7 className="skill-name">
-                Began my journey into tech by learning web design principles and
-                building static websites using HTML, CSS, and JavaScript.
+                Started offering services in Web Design, Web Development,
+                helping businesses launch modern digital products.
               </h7>
             </div>
             <div>

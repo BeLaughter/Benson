@@ -11,6 +11,9 @@
   .flex-a {
     margin-bottom: 30px;
   }
+  .flex-b {
+    text-align: left;
+  }
 }
 
 /* style contents for larger screens only */
@@ -49,7 +52,7 @@
   border-radius: 50%;
   color: white;
   box-shadow: 0 0 5px #00bfff, 0 0 10px #1e90ff;
-  background-color: #142517;
+  background-color: #0c0c0c;
   transition: all 0.3s ease-in-out;
 }
 .iconsz:hover {

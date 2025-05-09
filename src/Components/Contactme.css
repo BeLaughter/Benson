@@ -1,0 +1,88 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .flex {
+    display: flex;
+  }
+  .flex-item-contact1 {
+    margin-bottom: 30px;
+  }
+  .input {
+    margin: 5px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+  }
+  .comment {
+    margin: 5px;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  .input-btn {
+    margin-top: 5px;
+    margin: 5px;
+    height: 4vh;
+    width: 100% !important;
+    border-radius: 10px;
+  }
+  .flex-container-input {
+    margin-top: 20px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .flex {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .flex-item-contact1 {
+    width: 30%;
+    margin-right: 30px;
+  }
+  .flex-item-contact2 {
+    width: 70%;
+  }
+  .input {
+    border-radius: 10px;
+    height: 6vh;
+  }
+  .comment {
+    margin-top: 10px;
+    width: 100% !important;
+    height: 40vh;
+    border-radius: 10px;
+  }
+  .input-btn {
+    margin-top: 10px;
+    width: 100% !important;
+    border-radius: 10px;
+  }
+  .flex-container-input {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.flex-item-contact2 {
+  text-align: left;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 5px #666666, 0 0 10px #777777;
+}
+.flex-item-contact1 {
+  text-align: left;
+  color: #fafcfa !important;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 5px #666666, 0 0 10px #777777;
+}

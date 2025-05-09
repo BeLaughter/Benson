@@ -8,13 +8,13 @@ import cap4 from "../assets/cap4.PNG?url";
 const Project = () => {
   return (
     <div className="pad">
-      <p id="project">
+      <p id="project" className="para">
         My Work <br></br>
         <span className="title">Featured Projects </span>
       </p>
       {/* projects  */}
       {/* fifth */}
-      <div className="flex-container">
+      <div className="flex-container mt-5">
         <div className="flex-itemb">
           <Projectcard
             img={cap4}

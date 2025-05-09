@@ -16,7 +16,7 @@
   }
 
   /* Paragraph styling */
-  .pad p {
+  .pad .para {
     font-size: 1.1rem;
     margin-bottom: 15px;
   }
@@ -71,7 +71,7 @@
   }
 
   /* Paragraph styling */
-  .pad p {
+  .pad .para {
     font-size: 1.5rem;
     margin-bottom: 15px;
   }

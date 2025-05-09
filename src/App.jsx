@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Home from "./Pages/Home";
@@ -9,9 +9,10 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import { FaArrowRight, FaArrowUp } from "react-icons/fa6";
-
+import { FaArrowUp } from "react-icons/fa6";
+import { FaSun, FaMoon } from "react-icons/fa";
 function App() {
+  const [isDark, setIsDark] = useState(true);
   // Initialize AOS animations
   useEffect(() => {
     Aos.init();
@@ -44,13 +45,23 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div>
+    <div className={isDark ? "dark-theme" : "light-theme"}>
       <div className="b2top">
         <a href="#totop" onClick={scrollToTop}>
           <FaArrowUp className="text-dark" />
         </a>
       </div>
+
       <Navbar />
+      <div className="mt-3 me-3 topr">
+        <a onClick={() => setIsDark(!isDark)} aria-label="Toggle dark mode">
+          {isDark ? (
+            <FaSun className="iconsz" size={20} color="gold" />
+          ) : (
+            <FaMoon className="iconsz" size={20} color="blue" />
+          )}
+        </a>
+      </div>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
