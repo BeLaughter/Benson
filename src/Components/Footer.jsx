@@ -9,6 +9,7 @@ import {
   FaFacebookSquare,
   FaMailBulk,
   FaThumbsUp,
+  FaGithub,
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
@@ -36,8 +37,8 @@ function Footer() {
             <li>
               {" "}
               <div className="mid-foot">
-                <a href="#" target="blank">
-                  <FaFacebook className="iconsz" />
+                <a href="https://github.com/BeLaughter" target="blank">
+                  <FaGithub className="iconsz" />
                 </a>
                 <a href="http://Instagram.com/that.laughter" target="blank">
                   <FaInstagram className="iconsz" />
@@ -53,13 +54,23 @@ function Footer() {
           </ul>
         </div>
         <div className="flex-item">
-          <h4>Information</h4>
+          <h4>Skills</h4>
           <ul>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Our Services</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
+            <li>
+              <p>-Html & Css</p>
+            </li>
+            <li>
+              <p>-Javascript </p>
+            </li>
+            <li>
+              <p>-Bootstrap & Tailwind Css </p>
+            </li>
+            <li>
+              <p>-React,Vite </p>
+            </li>
+            <li>
+              <p>-Mongodb, Express </p>
+            </li>
           </ul>
         </div>
         <div className="flex-item">
