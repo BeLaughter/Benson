@@ -18,7 +18,7 @@ const Intro = () => {
           Contact me{" "}
         </a>
       </div>
-      <div className="mt-3 bounce">
+      <div className="mt-5 bounce">
         <a href="#about">
           Scroll Down <br></br> <FaArrowDown className="bk-icon" />
         </a>
