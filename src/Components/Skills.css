@@ -1,0 +1,91 @@
+/* style contents for mobile only */
+@media (max-width: 769px) {
+  .skills-box {
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 30px;
+    width: 100%;
+    background-color: #1b1b1b;
+    box-shadow: 0 0 5px #666666, 0 0 10px #777777;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .skills-box {
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 30px;
+    width: 450px;
+    background-color: #1b1b1b;
+    box-shadow: 0 0 5px #666666, 0 0 10px #777777;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.skills-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #7a7979;
+}
+
+.skill {
+  margin-bottom: 18px;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.progress-bar {
+  height: 14px;
+  border-radius: 7px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 7px;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.html {
+  width: 90%;
+  background: #e44d26;
+}
+.css {
+  width: 95%;
+  background: #2965f1;
+}
+.javascript {
+  width: 70%;
+  background: #f0db4f;
+  color: #000;
+}
+.react {
+  width: 70%;
+  background: #61dafb;
+  color: #000;
+}
+.bootstrap {
+  width: 85%;
+  background: #563d7c;
+}
+.skills-box li {
+  border: 2px solid grey;
+  border-radius: 20px;
+  margin: 10px;
+}

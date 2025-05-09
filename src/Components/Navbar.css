@@ -1,0 +1,87 @@
+/* style contents for mobile only */
+@media (max-width: 769px) {
+  .navbar-brand {
+    margin-left: 20px;
+    color: rgb(245, 248, 245);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: rgb(249, 255, 249) !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .navbar-brand {
+    color: rgb(251, 253, 251);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+  }
+  .nav-link {
+    color: rgb(249, 252, 249) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(248, 252, 248);
+    border-bottom-style: solid;
+  }
+  .nav-link:focus {
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(247, 252, 247);
+    border-bottom-style: solid;
+  }
+  .navbar {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .navbar-nav {
+    gap: 20px;
+  }
+  .container-fluid {
+    display: flex;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Ensure background remains visible */
+  z-index: 1000; /* Keeps navbar above other content */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* .bg {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+  color: black !important;
+} */
+.bk-icon {
+  margin-right: 10px;
+  color: rgb(244, 250, 244);
+}
+/* glassy  */
+.bg {
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent background */
+  backdrop-filter: blur(10px); /* blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* soft shadow */
+  color: black !important;
+  transition: all 0.3s ease;
+}

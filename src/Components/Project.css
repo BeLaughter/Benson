@@ -1,0 +1,87 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .projectcard {
+    margin-bottom: 30px !important;
+  }
+  .bt {
+    justify-items: center !important;
+    align-self: center !important;
+    margin-top: 50px !important;
+  }
+  .proanc {
+    margin: 10px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .flex-itemb {
+    width: 50%;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.picard {
+  position: relative;
+  width: 100% !important;
+  height: 35vh !important;
+}
+
+.picard:hover .boxbt {
+  opacity: 1;
+}
+.ptext {
+  color: #faf8f8;
+}
+.boxbt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: rgba(15, 15, 15, 0.7); /* Black with 60% opacity */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.col {
+  margin-top: 20px;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+}
+.projectcard {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  box-shadow: 0 0 5px #666666, 0 0 10px #777777;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.bt {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  align-self: center !important;
+  border-bottom-color: #00bfff;
+  border-width: 3px;
+  border-bottom-style: solid;
+  padding: 10px;
+}
+.bt:hover {
+  color: #00bfff;
+}
+.mrow {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
