@@ -33,7 +33,7 @@
 
   /* Glowing Button Style */
   .glow-btn {
-    background: linear-gradient(90deg, #070707, #131313);
+    background: linear-gradient(90deg, #111111, #272727);
     border: none;
     padding: 12px 24px;
     font-size: 1rem;
@@ -74,13 +74,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
     margin-top: 20px;
   }
 
   /* Glowing Button Style */
   .glow-btn {
-    background: linear-gradient(90deg, #070707, #131313);
+    background: linear-gradient(90deg, #111111, #272727);
     border: none;
     padding: 17px 40px;
     font-size: 1.2rem;
