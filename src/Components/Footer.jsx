@@ -16,10 +16,10 @@ function Footer() {
               <FaLocationDot className="iconsz" />
               6b Adebisi street, Alakuko, Lagos state.
             </li>
-            <li>
+            {/* <li>
               <IoCall className="iconsz" />
               +2348069374133
-            </li>
+            </li> */}
             <li>
               <IoIosMail className="iconsz" />
               Laughteriremide@gmail.com
@@ -43,26 +43,7 @@ function Footer() {
             </li>
           </div>
         </div>
-        <div className="flex-item me-4">
-          <h4>Skills</h4>
-          <div>
-            <li>
-              <p>-Html & Css</p>
-            </li>
-            <li>
-              <p>-Javascript </p>
-            </li>
-            <li>
-              <p>-Bootstrap & Tailwind Css </p>
-            </li>
-            <li>
-              <p>-React,Vite </p>
-            </li>
-            <li>
-              <p>-Mongodb, Express </p>
-            </li>
-          </div>
-        </div>
+
         <div className="flex-item">
           <h4>Newsletter</h4>
           <p>Sign up today for the latest news and updates.</p>
@@ -77,8 +58,14 @@ function Footer() {
       </div>
       <hr></hr>
       <div className="flex-container6">
-        <p>6b, Adebisi Alabi street, Alakuko Lagos state.</p>
         <p>©BENSON 2025. All Rights Reserved. Design by BlackFire_CODEX</p>
+        <p>
+          <span>Privacy Policy</span>
+
+          <span>Terms Of Service</span>
+
+          <span>Cookie Policy</span>
+        </p>
       </div>
     </div>
   );
