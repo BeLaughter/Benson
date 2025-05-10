@@ -11,7 +11,7 @@ const Intro = () => {
         technologies.
       </p>
       <div className="flex-contain mb mt-5">
-        <a href="#project" className="glow-btn bm">
+        <a href="#project" className="glow-btn">
           View my work <FaArrowRight className="bk-icon" />
         </a>
         <a href="#contact" className="glow-btn mt-3">
