@@ -30,6 +30,12 @@ body {
     font-size: 1.5rem !important;
     color: #f3f0ee;
   }
+  .topr {
+    position: fixed;
+    top: 65px;
+    right: 5px;
+    z-index: 34657565;
+  }
 }
 
 /* style contents for larger screens only */
@@ -55,6 +61,12 @@ body {
     font-size: 1.3rem !important;
     color: #f3f0ee;
   }
+  .topr {
+    position: fixed;
+    top: 80px;
+    right: 5px;
+    z-index: 34657565;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -64,12 +76,7 @@ div li {
 ul li {
   list-style-type: none;
 }
-.topr {
-  position: fixed;
-  top: 65px;
-  right: 0px;
-  z-index: 34657565;
-}
+
 .iconsz-dark {
   width: 40px !important;
   height: 40px !important;
