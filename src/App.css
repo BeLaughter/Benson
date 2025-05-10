@@ -58,14 +58,32 @@ body {
 }
 
 /* stylings that doesnt affect screens only */
+div li {
+  list-style-type: none;
+}
 ul li {
   list-style-type: none;
 }
 .topr {
   position: fixed;
-  top: 80px;
-  right: 5px;
+  top: 65px;
+  right: 0px;
   z-index: 34657565;
+}
+.iconsz-dark {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 50%;
+  color: white;
+  box-shadow: 0 0 7px #ffe600, 0 0 13px #f7b603;
+  background-color: #0f0f0f;
+  transition: all 0.3s ease-in-out;
+}
+.iconsz-dark:hover {
+  box-shadow: 0 0 15px #ffe600, 0 0 30px #f7b603;
+  transform: translateY(-5px);
 }
 .b2top {
   display: none;

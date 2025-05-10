@@ -1,16 +1,6 @@
 // import { useState } from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
-import {
-  FaPhone,
-  FaInstagram,
-  FaWhatsapp,
-  FaLinkedin,
-  FaFacebookSquare,
-  FaMailBulk,
-  FaThumbsUp,
-  FaGithub,
-} from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
@@ -21,10 +11,10 @@ function Footer() {
       <div className="flex-container6">
         <div className="flex-item">
           <h4>Get In Touch</h4>
-          <ul>
+          <div>
             <li>
               <FaLocationDot className="iconsz" />
-              6b, Adebisi Alabi street, Alakuko, Lagos state.
+              6b Adebisi street, Alakuko, Lagos state.
             </li>
             <li>
               <IoCall className="iconsz" />
@@ -51,11 +41,11 @@ function Footer() {
                 </a>
               </div>
             </li>
-          </ul>
+          </div>
         </div>
         <div className="flex-item">
           <h4>Skills</h4>
-          <ul>
+          <div>
             <li>
               <p>-Html & Css</p>
             </li>
@@ -71,7 +61,7 @@ function Footer() {
             <li>
               <p>-Mongodb, Express </p>
             </li>
-          </ul>
+          </div>
         </div>
         <div className="flex-item">
           <h4>Newsletter</h4>

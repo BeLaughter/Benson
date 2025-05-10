@@ -1,7 +1,7 @@
 /* style contents for mobile only */
 @media (max-width: 769px) {
   .pad {
-    margin: 30px;
+    margin: 20px;
     margin-top: 50px;
     justify-content: center;
     align-items: center;

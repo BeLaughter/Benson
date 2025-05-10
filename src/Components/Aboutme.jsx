@@ -41,10 +41,10 @@ const Aboutme = () => {
           <h6 className="grey">
             I'm passionate about creating impactful projects by leveraging
             technology to solve real-world problems and delivering cutting-edge
-            web and Web3 solutions for modern businesses.
+            web solutions for modern businesses.
           </h6>
           <h5 className="mt-4">My Journey</h5>
-          <div className="flex">
+          <div className="flex-container">
             <div>
               <span className="circle">2022</span>
             </div>
@@ -57,7 +57,7 @@ const Aboutme = () => {
             </div>
           </div>
           {/*  journey */}
-          <div className="flex">
+          <div className="flex-con">
             <div>
               <h5>Specialized in React & Modern Frontend Tools</h5>
               <h7 className="grey">
@@ -70,7 +70,7 @@ const Aboutme = () => {
             </div>
           </div>
           {/*  journey */}
-          <div className="flex">
+          <div className="flex-container">
             <div>
               <span className="circle">2024</span>
             </div>
@@ -82,7 +82,7 @@ const Aboutme = () => {
             </div>
           </div>
           {/*  journey */}
-          <div className="flex">
+          <div className="flex-con">
             <div>
               <h5>Freelancing</h5>
               <h7 className="grey">

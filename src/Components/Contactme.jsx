@@ -11,36 +11,36 @@ function Contactme() {
         <span className="title mb">Contact Me </span>
       </p>
       <div className="flex-container">
-        <div className="flex-item-contact1">
-          <h3 className="grey">Contact Info</h3>
-          <p className="grey">
+        <div className="flex-item-contact1 mt-4">
+          <h3>Contact Info</h3>
+          <p>
             I’d love to hear from you! Whether you’re interested in
             collaborating on a project, have questions, or just want to connect,
             feel free to reach out. I’m always open to new opportunities and
             conversations.
           </p>
-          <ul>
+          <div>
             <li className="flex">
               <FaLocationDot className="iconsz me-4" />
-              <p className="grey">
+              <p>
                 Address<br></br>6b, Adebisi Alabi street,<br></br> Alakuko,
                 Lagos State.
               </p>
             </li>
             <li className="flex">
               <IoCall className="iconsz me-4" />
-              <p className="grey">
+              <p>
                 Hotline<br></br>
                 08069374133, 08053100515
               </p>
             </li>
             <li className="flex">
               <IoIosMail className="iconsz me-4" />
-              <p className="grey">
+              <p>
                 Email<br></br>Laughteriremide@gmail.com
               </p>
             </li>
-          </ul>
+          </div>
         </div>
         <div className="flex-item-contact2">
           <h3 className="">Get In Touch</h3>

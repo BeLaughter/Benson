@@ -56,7 +56,7 @@ function App() {
       <div className="mt-3 me-3 topr">
         <a onClick={() => setIsDark(!isDark)} aria-label="Toggle dark mode">
           {isDark ? (
-            <FaSun className="iconsz" size={20} color="gold" />
+            <FaSun className="iconsz-dark" size={20} color="gold" />
           ) : (
             <FaMoon className="iconsz" size={20} color="blue" />
           )}
