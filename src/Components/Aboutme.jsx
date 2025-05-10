@@ -28,7 +28,7 @@ const Aboutme = () => {
           </div>
         </div>
         <div className="flex-b">
-          <h6>Hi, I am Benson Iremide</h6>
+          <h5>Hi, I am Benson Iremide</h5>
           <h6 className="grey">
             Innovative web designer and developer specializing in responsive,
             user-centric web applications.
