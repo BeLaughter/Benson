@@ -14,7 +14,7 @@ const Intro = () => {
         <a href="#project" className="glow-btn">
           View my work <FaArrowRight className="bk-icon" />
         </a>
-        <a href="#contact" className="glow-btn mt-3">
+        <a href="#contact" className="glow-btn">
           Contact me{" "}
         </a>
       </div>
