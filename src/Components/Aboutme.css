@@ -2,7 +2,7 @@
 @media (max-width: 769px) {
   .about-img {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     background-color: #1b1b1b;
     box-shadow: 0 0 5px #666666, 0 0 10px #777777;
@@ -10,7 +10,7 @@
   }
   .img {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     object-fit: cover;
   }
@@ -60,7 +60,7 @@
   }
   .about-img {
     width: 100%;
-    height: 550px;
+    height: 650px;
     border-radius: 20px;
     background-color: #1b1b1b;
     box-shadow: 0 0 5px #666666, 0 0 10px #777777;
@@ -68,9 +68,9 @@
   }
   .img {
     width: 100%;
-    height: 550px;
+    height: 650px;
     border-radius: 20px;
-    object-fit: contain;
+    object-fit: cover;
   }
   .flex-con {
     display: flex;
