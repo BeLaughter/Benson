@@ -57,6 +57,34 @@ body {
   }
 }
 
+/* Tablets (portrait and small tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pad {
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Small laptops to large laptops/tablets (landscape) */
+@media (min-width: 1025px) {
+  .pad {
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 /* stylings that doesnt affect screens only */
 div li {
   list-style-type: none;
@@ -107,6 +135,7 @@ ul li {
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .btn {
   color: #f3f0ee;

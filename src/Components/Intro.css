@@ -54,14 +54,6 @@
 /* style contents for larger screens only */
 
 @media (min-width: 769px) {
-  .pad {
-    margin: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
   /* Glowing h1 */
   .pad h1 {
     font-size: 5rem;
@@ -79,6 +71,7 @@
   /* Container to align buttons */
   .flex-contain {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;

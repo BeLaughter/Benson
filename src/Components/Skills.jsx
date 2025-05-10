@@ -57,9 +57,9 @@ const Skills = () => {
       </div>
       {/* after */}
       <div className="flex-container">
-        <div className="skills-box">
+        <div className="skills-box2">
           <h4>FRONTEND</h4>
-          <ul className="mt-4">
+          <div className="mt-4">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>BOOTSTRAP</li>
@@ -67,22 +67,22 @@ const Skills = () => {
             <li>TAILWIND CSS</li>
             <li>REACT.JS</li>
             <li>RESPONSIVE DESIGN</li>
-          </ul>
+          </div>
         </div>
-        <div className="skills-box">
+        <div className="skills-box2">
           <h4>BACKEND</h4>
-          <ul className="mt-4">
+          <div className="mt-4">
             <li>Node.js</li>
             <li>Express</li>
             <li>Firebase</li>
             <li>MongoDB</li>
             <li>POSTMAN</li>
             <li>CLOUDINARY</li>
-          </ul>
+          </div>
         </div>
-        <div className="skills-box">
+        <div className="skills-box2">
           <h4>TOOLS & OTHERS</h4>
-          <ul className="mt-4">
+          <div className="mt-4">
             <li>Git</li>
             <li>Github</li>
             <li>Vite</li>
@@ -90,7 +90,7 @@ const Skills = () => {
             <li>UI/UX</li>
             <li>Figma</li>
             <li>Performance Optimization</li>
-          </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -8,11 +8,11 @@ function Contactme() {
     <div className="pad">
       <p id="contact" className="para">
         Get In Touch <br></br>
-        <span className="title mb">Contact Me </span>
+        <span className="title ">Contact Me </span>
       </p>
-      <div className="flex-container">
+      <div className="flex-container mt-4">
         <div className="flex-item-contact1 mt-4">
-          <h3>Contact Info</h3>
+          <h3 className="mt-3 ">Contact Info</h3>
           <p>
             I’d love to hear from you! Whether you’re interested in
             collaborating on a project, have questions, or just want to connect,

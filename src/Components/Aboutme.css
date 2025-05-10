@@ -47,22 +47,20 @@
 
 @media (min-width: 769px) {
   .flex-a {
-    width: 50%;
-    padding: 50px;
-    padding-top: 0px;
+    width: 100%;
+    margin-right: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .flex-b {
-    width: 50%;
-    padding: 50px;
+    width: 100%;
     text-align: left;
   }
   .about-img {
-    width: 70%;
-    height: 400px;
+    width: 100%;
+    height: 550px;
     border-radius: 20px;
     background-color: #1b1b1b;
     box-shadow: 0 0 5px #666666, 0 0 10px #777777;
@@ -70,9 +68,9 @@
   }
   .img {
     width: 100%;
-    height: 400px;
+    height: 550px;
     border-radius: 20px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .flex-con {
     display: flex;

@@ -43,7 +43,7 @@ function Footer() {
             </li>
           </div>
         </div>
-        <div className="flex-item">
+        <div className="flex-item me-4">
           <h4>Skills</h4>
           <div>
             <li>
