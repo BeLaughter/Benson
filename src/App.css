@@ -242,7 +242,10 @@ a {
   background-color: #f9f9f9;
   box-shadow: 0 0 5px #ccc, 0 0 10px #bbb;
 }
-
+.light-theme .skills-box2 {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px #ccc, 0 0 10px #bbb;
+}
 .light-theme .skills-box h2 {
   color: #333;
 }
