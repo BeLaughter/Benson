@@ -38,7 +38,7 @@ function Projectcard(props) {
           View Project
         </a>
         <a href={props.link2} target="blank" className="bt">
-          View Code
+          <FaGithub /> View Code
         </a>
       </div>
 
