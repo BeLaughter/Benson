@@ -8,7 +8,8 @@ function Projectcard(props) {
         <div className="col picard">
           <img
             src={props.img}
-            alt="web development course"
+            loading="lazy"
+            alt="Image of project"
             className="card-img"
           />
           <div className="boxbt flex-container justify-content-center hiddenonmobile">
