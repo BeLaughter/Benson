@@ -13,16 +13,33 @@ const Aboutme = () => {
       <div className="flex-container mt-5">
         <div className="flex-a">
           <div className="about-img">
-            <img src={mypic2} alt="Image 3" className="img"></img>
+            <img
+              src={mypic2}
+              alt="My Picture"
+              loading="lazy"
+              className="img"
+            ></img>
           </div>
           <div className="about-icon">
-            <a href="http://Instagram.com/that.laughter" target="blank">
+            <a
+              href="http://Instagram.com/that.laughter"
+              aria-label="Visit my Instagram profile"
+              target="blank"
+            >
               <FaInstagram className="iconsz" />
             </a>
-            <a href="https://wa.link/yxwwka" target="blank">
+            <a
+              href="https://wa.link/yxwwka"
+              aria-label="Chat with me on Whatsapp"
+              target="blank"
+            >
               <FaWhatsapp className="iconsz" />
             </a>
-            <a href="https://github.com/BeLaughter" target="blank">
+            <a
+              href="https://github.com/BeLaughter"
+              aria-label="Visit my Github profile"
+              target="blank"
+            >
               <FaGithub className="iconsz" />
             </a>
           </div>

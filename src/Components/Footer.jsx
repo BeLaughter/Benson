@@ -27,16 +27,28 @@ function Footer() {
             <li>
               {" "}
               <div className="mid-foot">
-                <a href="https://github.com/BeLaughter" target="blank">
+                <a
+                  href="https://github.com/BeLaughter"
+                  aria-label="Visit my Github profile"
+                  target="blank"
+                >
                   <FaGithub className="iconsz" />
                 </a>
-                <a href="http://Instagram.com/that.laughter" target="blank">
+                <a
+                  href="http://Instagram.com/that.laughter"
+                  aria-label="Visit my Instagram profile"
+                  target="blank"
+                >
                   <FaInstagram className="iconsz" />
                 </a>
-                <a href="https://wa.link/yxwwka" target="blank">
+                <a
+                  href="https://wa.link/yxwwka"
+                  aria-label="Chat with me on WhatsApp"
+                  target="blank"
+                >
                   <FaWhatsapp className="iconsz" />
                 </a>
-                <a href="#" target="blank">
+                <a href="#" target="blank" aria-hidden="true">
                   <FaLinkedin className="iconsz" />
                 </a>
               </div>

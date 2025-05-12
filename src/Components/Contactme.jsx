@@ -1,9 +1,45 @@
+import { useState } from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaGithub, FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import "./Contactme.css";
 function Contactme() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    website: "",
+    comment: "",
+  });
+
+  const [message, setMessage] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Basic validation
+    if (!formData.name || !formData.email || !formData.comment) {
+      setMessage("Please fill in all required fields.");
+      return;
+    }
+
+    setMessage("Submitted successfully ✅");
+    // You can send form data here (e.g. via EmailJS, API, etc.)
+
+    // Clear form fields
+    setFormData({
+      name: "",
+      email: "",
+      website: "",
+      comment: "",
+    });
+    // Optionally remove message after a few seconds
+    setTimeout(() => setMessage(""), 3000);
+  };
   return (
     <div className="pad">
       <p id="contact" className="para">
@@ -58,40 +94,50 @@ function Contactme() {
             <FaGithub className="iconsz" />
           </a>
 
-          <div className="flex-container-input">
-            <input
-              type="text"
-              className="input "
-              name="name"
-              placeholder="Enter your name"
+          <form onSubmit={handleSubmit}>
+            <div className="flex-container-input">
+              <input
+                type="text"
+                name="name"
+                className="input"
+                placeholder="Enter your name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                className="input"
+                placeholder="Enter your email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="text"
+                name="website"
+                className="input"
+                placeholder="Website"
+                value={formData.website}
+                onChange={handleChange}
+              />
+            </div>
+            <textarea
+              name="comment"
+              placeholder="Comment"
+              className="comment"
+              value={formData.comment}
+              onChange={handleChange}
               required
-            ></input>
-            <input
-              type="text"
-              className="input"
-              placeholder="Enter your email"
-              required
-            ></input>
-            <input
-              type="text"
-              className="input"
-              placeholder="Website"
-              required
-            ></input>
-          </div>
-          <input
-            type="text"
-            className="comment"
-            placeholder="comment"
-            required
-          ></input>
-          <br></br>
-          <input
-            type="button"
-            className="input-btn bgorange"
-            value="SUBMIT"
-            required
-          ></input>
+            ></textarea>
+
+            <button type="submit" className="input-btn bgorange">
+              SUBMIT
+            </button>
+
+            {message && <p className="form-message">{message}</p>}
+          </form>
         </div>
       </div>
     </div>
