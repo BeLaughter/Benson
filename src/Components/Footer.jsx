@@ -60,11 +60,11 @@ function Footer() {
       <div className="flex-container6">
         <p>©BENSON 2025. All Rights Reserved. Design by BlackFire_CODEX</p>
         <p>
-          <span>Privacy Policy</span>
+          <span className="span">Privacy Policy</span>
 
-          <span>Terms Of Service</span>
+          <span className="span">Terms Of Service</span>
 
-          <span>Cookie Policy</span>
+          <span className="span">Cookie Policy</span>
         </p>
       </div>
     </div>
