@@ -329,11 +329,15 @@ a {
 }
 
 .light-theme .input,
-.light-theme .comment,
-.light-theme .input-btn {
+.light-theme .comment {
   background-color: #fff;
   color: #000;
   border: 1px solid #ccc;
+}
+.light-theme .input-btn {
+  background-color: #0f0f0f;
+  color: white;
+  border: 1px solid rgb(107, 106, 106);
 }
 
 .light-theme .input::placeholder,
