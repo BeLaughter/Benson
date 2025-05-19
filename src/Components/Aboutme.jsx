@@ -92,7 +92,7 @@ const Aboutme = () => {
               <span className="circle">2024</span>
             </div>
             <div>
-              <h5>Full Stack Skills & Exploring Web3</h5>
+              <h5>Full Stack Skills</h5>
               <h7 className="grey">
                 Expanded into backend development with Node.js and Express.
               </h7>
