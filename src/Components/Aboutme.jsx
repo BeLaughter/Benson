@@ -12,7 +12,13 @@ const Aboutme = () => {
       </p>
       <div className="flex-container mt-5">
         <div className="flex-a">
-          <div className="about-img">
+          <div
+            className="about-img"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <img
               src={mypic2}
               alt="My Picture"

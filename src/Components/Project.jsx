@@ -5,6 +5,7 @@ import cap1 from "../assets/cap1.PNG?url";
 import cap2 from "../assets/cap2.PNG?url";
 import cap3 from "../assets/cap3.PNG?url";
 import cap4 from "../assets/cap4.PNG?url";
+import cap5 from "../assets/cap5.PNG?url";
 const Project = () => {
   return (
     <div className="pad">
@@ -13,9 +14,50 @@ const Project = () => {
         <span className="title">Featured Projects </span>
       </p>
       {/* projects  */}
+      {/* sixth */}
+      <div className="flex-container mt-5">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
+          <Projectcard
+            img={cap5}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Firestore"
+            text=" Bright Future school management dashboard built with React and Firebase"
+            link1="https://bright-school-xi.vercel.app/"
+            link2="https://github.com/BeLaughter/Bright-School"
+          />
+        </div>
+        {/* <div className="flex-itemb" 
+        data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500">
+          <Projectcard
+            img={cap3}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Bootstrap"
+            text=" Roserlaw School website built with  React & Firebase"
+            link1="https://roserlaw.vercel.app/"
+            link2="https://github.com/BeLaughter/Roserlaw"
+          />
+        </div> */}
+      </div>
       {/* fifth */}
       <div className="flex-container mt-5">
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img={cap4}
             lang=" Html"
@@ -26,12 +68,18 @@ const Project = () => {
             link2="https://github.com/BeLaughter/Flipmart"
           />
         </div>
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img={cap3}
             lang=" Html"
             lang2=" React"
-            lang3=" Bootstrap"
+            lang3=" Firestore"
             text=" Roserlaw School website built with  React & Firebase"
             link1="https://roserlaw.vercel.app/"
             link2="https://github.com/BeLaughter/Roserlaw"
@@ -40,7 +88,13 @@ const Project = () => {
       </div>
       {/* fourth */}
       <div className="flex-container">
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img={cap2}
             lang=" Html"
@@ -51,7 +105,13 @@ const Project = () => {
             link2="https://github.com/BeLaughter/Nftpage"
           />
         </div>
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img={cap1}
             lang="Html"
@@ -66,7 +126,13 @@ const Project = () => {
       {/* third */}
 
       <div className="flex-container">
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/MDrx8v4c/IMG-6420.jpg"
             lang=" Html"
@@ -77,7 +143,13 @@ const Project = () => {
             link2="https://github.com/BeLaughter/Boldlink-web/tree/main"
           />
         </div>
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/sJHBrdhJ/c1203761-ac06-427d-8103-172b92b2cdae.jpg"
             lang=" Html"
@@ -91,7 +163,13 @@ const Project = () => {
       </div>
       {/*second*/}
       <div className="flex-container">
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/jkQkn4N4/IMG-6415.jpg"
             lang="Html"
@@ -102,7 +180,13 @@ const Project = () => {
             link2="https://github.com/BeLaughter/calculator/tree/main"
           />
         </div>
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/hJDtyzqx/IMG-6419.jpg"
             lang="Html"
@@ -116,7 +200,13 @@ const Project = () => {
       </div>
       {/*first*/}
       <div className="flex-container">
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/zHmSzcd5/IMG-6418.jpg"
             lang=" Html"
@@ -127,7 +217,13 @@ const Project = () => {
             link2="https://github.com/BeLaughter/web/tree/main"
           />
         </div>
-        <div className="flex-itemb">
+        <div
+          className="flex-itemb"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
           <Projectcard
             img="https://i.ibb.co/fzSrtYPW/IMG-6417.jpg"
             lang="Html"
@@ -140,7 +236,12 @@ const Project = () => {
         </div>
       </div>
       {/* incoming  */}
-      <div>
+      <div
+        data-aos="zoom-in-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-delay="300"
+        data-aos-duration="1500"
+      >
         <p>More projects incoming...</p>
       </div>
     </div>

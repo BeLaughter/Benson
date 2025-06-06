@@ -6,7 +6,12 @@ const Intro = () => {
     <div className="pad">
       <p className="para">WEB DEVELOPER</p>
       <h1>BUILDING THE FUTURE OF THE WEB</h1>
-      <p className="para">
+      <p
+        className="para"
+        data-aos="zoom-in-up"
+        data-aos-delay="300"
+        data-aos-duration="2000"
+      >
         I create cutting-edge digital experiences using modern frontend
         technologies.
       </p>
