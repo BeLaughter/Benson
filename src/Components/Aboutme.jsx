@@ -14,7 +14,7 @@ const Aboutme = () => {
         <div className="flex-a">
           <div
             className="about-img"
-            data-aos="flip-left"
+            data-aos="zoom-in-down"
             data-aos-easing="ease-out-cubic"
             data-aos-delay="300"
             data-aos-duration="3000"
@@ -68,7 +68,12 @@ const Aboutme = () => {
           </h6>
           <h5 className="mt-4">My Journey</h5>
           <div className="flex-container">
-            <div>
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+            >
               <span className="circle">2022</span>
             </div>
             <div>
@@ -88,13 +93,23 @@ const Aboutme = () => {
                 dynamic interfaces and clean UI/UX.
               </h7>
             </div>
-            <div>
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+            >
               <span className="circle">2023</span>
             </div>
           </div>
           {/*  journey */}
           <div className="flex-container">
-            <div>
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+            >
               <span className="circle">2024</span>
             </div>
             <div>
@@ -113,7 +128,12 @@ const Aboutme = () => {
                 helping businesses launch modern digital products.
               </h7>
             </div>
-            <div>
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+            >
               <span className="circle">2025</span>
             </div>
           </div>

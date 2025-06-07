@@ -7,7 +7,13 @@ const Skills = () => {
         What I Do <br></br>
         <span className="title">My Skills </span>
       </p>
-      <div className="skills-box mt-5">
+      <div
+        className="skills-box mt-5"
+        data-aos="zoom-in-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-delay="300"
+        data-aos-duration="2000"
+      >
         <h2>Web2 Skills</h2>
 
         <div className="skill">
@@ -57,7 +63,13 @@ const Skills = () => {
       </div>
       {/* after */}
       <div className="flex-container">
-        <div className="skills-box2">
+        <div
+          className="skills-box2"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <h4>FRONTEND</h4>
           <div className="mt-4">
             <li>HTML5</li>
@@ -69,7 +81,13 @@ const Skills = () => {
             <li>RESPONSIVE DESIGN</li>
           </div>
         </div>
-        <div className="skills-box2">
+        <div
+          className="skills-box2"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <h4>BACKEND</h4>
           <div className="mt-4">
             <li>Node.js</li>
@@ -80,7 +98,13 @@ const Skills = () => {
             <li>CLOUDINARY</li>
           </div>
         </div>
-        <div className="skills-box2">
+        <div
+          className="skills-box2"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <h4>TOOLS & OTHERS</h4>
           <div className="mt-4">
             <li>Git</li>

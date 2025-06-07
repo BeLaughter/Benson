@@ -47,7 +47,13 @@ function Contactme() {
         <span className="title ">Contact Me </span>
       </p>
       <div className="flex-container mt-4">
-        <div className="flex-item-contact1 mt-4">
+        <div
+          className="flex-item-contact1 mt-4"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <h3 className="mt-3 ">Contact Info</h3>
           <p>
             I’d love to hear from you! Whether you’re interested in
@@ -78,7 +84,13 @@ function Contactme() {
             </li>
           </div>
         </div>
-        <div className="flex-item-contact2">
+        <div
+          className="flex-item-contact2"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <h3 className="">Get In Touch</h3>
           <p>
             I aim to respond as quickly as possible and look forward to hearing
