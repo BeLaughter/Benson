@@ -16,7 +16,7 @@ const Intro = () => {
       <h1
         data-aos="zoom-in-down"
         data-aos-easing="ease-out-cubic"
-        data-aos-delay="300"
+        data-aos-delay="500"
         data-aos-duration="2000"
       >
         BUILDING THE FUTURE OF THE WEB
@@ -25,7 +25,7 @@ const Intro = () => {
         className="para"
         data-aos="zoom-in-down"
         data-aos-easing="ease-out-cubic"
-        data-aos-delay="500"
+        data-aos-delay="700"
         data-aos-duration="2200"
       >
         I create cutting-edge digital experiences using modern frontend
@@ -35,7 +35,7 @@ const Intro = () => {
         className="flex-contain mb mt-5"
         data-aos="zoom-in-down"
         data-aos-easing="ease-out-cubic"
-        data-aos-delay="300"
+        data-aos-delay="900"
         data-aos-duration="2000"
       >
         <a href="#project" className="glow-btn">
