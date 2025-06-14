@@ -29,7 +29,7 @@ const Project = () => {
             lang2=" React"
             lang3=" Firestore"
             text=" Bright Future school management dashboard built with React and Firebase"
-            link1="https://bright-school-xi.vercel.app/"
+            link1="https://bright-school-nu.vercel.app/"
             link2="https://github.com/BeLaughter/Bright-School"
           />
         </div>
