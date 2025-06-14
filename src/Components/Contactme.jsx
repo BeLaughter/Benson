@@ -42,17 +42,24 @@ function Contactme() {
   };
   return (
     <div className="pad">
-      <p id="contact" className="para">
+      <p
+        id="contact"
+        className="para"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-in-cubic"
+        data-aos-delay="300"
+        data-aos-duration="1500"
+      >
         Get In Touch <br></br>
         <span className="title ">Contact Me </span>
       </p>
       <div className="flex-container mt-4">
         <div
           className="flex-item-contact1 mt-4"
-          data-aos="zoom-in-down"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           <h3 className="mt-3 ">Contact Info</h3>
           <p>
@@ -86,10 +93,10 @@ function Contactme() {
         </div>
         <div
           className="flex-item-contact2"
-          data-aos="zoom-in-down"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           <h3 className="">Get In Touch</h3>
           <p>

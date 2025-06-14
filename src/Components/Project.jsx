@@ -9,7 +9,14 @@ import cap5 from "../assets/cap5.PNG?url";
 const Project = () => {
   return (
     <div className="pad">
-      <p id="project" className="para">
+      <p
+        id="project"
+        className="para"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-in-cubic"
+        data-aos-delay="300"
+        data-aos-duration="1500"
+      >
         My Work <br></br>
         <span className="title">Featured Projects </span>
       </p>

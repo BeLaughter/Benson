@@ -6,7 +6,14 @@ import mypic2 from "../assets/mypic2.png";
 const Aboutme = () => {
   return (
     <div className="pad">
-      <p id="about" className="para">
+      <p
+        id="about"
+        className="para"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-in-cubic"
+        data-aos-delay="300"
+        data-aos-duration="1500"
+      >
         Get to know me<br></br>
         <span className="title">About me</span>
       </p>
@@ -14,10 +21,10 @@ const Aboutme = () => {
         <div className="flex-a">
           <div
             className="about-img"
-            data-aos="zoom-in-down"
-            data-aos-easing="ease-out-cubic"
+            data-aos="zoom-in-up"
+            data-aos-easing="ease-in-cubic"
             data-aos-delay="300"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <img
               src={mypic2}
