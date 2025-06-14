@@ -15,7 +15,7 @@ const Project = () => {
         data-aos="zoom-in-up"
         data-aos-easing="ease-in-cubic"
         data-aos-delay="300"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
         My Work <br></br>
         <span className="title">Featured Projects </span>

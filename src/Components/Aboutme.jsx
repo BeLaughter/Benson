@@ -12,7 +12,7 @@ const Aboutme = () => {
         data-aos="zoom-in-up"
         data-aos-easing="ease-in-cubic"
         data-aos-delay="300"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
         Get to know me<br></br>
         <span className="title">About me</span>

@@ -8,7 +8,7 @@ const Skills = () => {
         data-aos="zoom-in-up"
         data-aos-easing="ease-in-cubic"
         data-aos-delay="300"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
         What I Do <br></br>
         <span className="title">My Skills </span>
