@@ -18,8 +18,8 @@ const Project = () => {
       <div className="flex-container mt-5">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -34,8 +34,8 @@ const Project = () => {
           />
         </div>
         {/* <div className="flex-itemb" 
-        data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+        data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500">
           <Projectcard
@@ -53,8 +53,8 @@ const Project = () => {
       <div className="flex-container mt-5">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -70,8 +70,8 @@ const Project = () => {
         </div>
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -90,8 +90,8 @@ const Project = () => {
       <div className="flex-container">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -107,8 +107,8 @@ const Project = () => {
         </div>
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -128,8 +128,8 @@ const Project = () => {
       <div className="flex-container">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -145,8 +145,8 @@ const Project = () => {
         </div>
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -165,8 +165,8 @@ const Project = () => {
       <div className="flex-container">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -182,8 +182,8 @@ const Project = () => {
         </div>
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -202,8 +202,8 @@ const Project = () => {
       <div className="flex-container">
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -219,8 +219,8 @@ const Project = () => {
         </div>
         <div
           className="flex-itemb"
-          data-aos="zoom-out-up"
-          data-aos-easing="ease-out-cubic"
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
           data-aos-duration="1500"
         >
@@ -238,7 +238,7 @@ const Project = () => {
       {/* incoming  */}
       <div
         data-aos="zoom-in-down"
-        data-aos-easing="ease-out-cubic"
+        data-aos-easing="ease-in-cubic"
         data-aos-delay="300"
         data-aos-duration="1500"
       >
