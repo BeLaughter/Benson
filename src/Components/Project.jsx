@@ -6,6 +6,7 @@ import cap2 from "../assets/cap2.PNG?url";
 import cap3 from "../assets/cap3.PNG?url";
 import cap4 from "../assets/cap4.PNG?url";
 import cap5 from "../assets/cap5.PNG?url";
+import cap6 from "../assets/cap6.PNG?url";
 const Project = () => {
   return (
     <div className="pad">
@@ -40,21 +41,23 @@ const Project = () => {
             link2="https://github.com/BeLaughter/Bright-School"
           />
         </div>
-        {/* <div className="flex-itemb" 
-        data-aos="zoom-in-up"
+        <div
+          className="flex-itemb"
+          data-aos="zoom-in-up"
           data-aos-easing="ease-in-cubic"
           data-aos-delay="300"
-          data-aos-duration="1500">
+          data-aos-duration="1500"
+        >
           <Projectcard
-            img={cap3}
+            img={cap6}
             lang=" Html"
-            lang2=" React"
-            lang3=" Bootstrap"
-            text=" Roserlaw School website built with  React & Firebase"
-            link1="https://roserlaw.vercel.app/"
-            link2="https://github.com/BeLaughter/Roserlaw"
+            lang2="Css"
+            lang3="React"
+            text=" TicTacToe built with  React "
+            link1="https://tic-tac-toe-wine-alpha-22.vercel.app/"
+            link2="https://github.com/BeLaughter/TicTacToe"
           />
-        </div> */}
+        </div>
       </div>
       {/* fifth */}
       <div className="flex-container mt-5">
